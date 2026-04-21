@@ -33,3 +33,10 @@ http://localhost:8080/swagger
 ## Notas
 - El proyecto usa `EnsureCreated()` para crear la base automáticamente al iniciar.
 - Para una versión más profesional, después puedes cambiar a migraciones con `dotnet ef`.
+
+## Libreria_Digital_Entregable
+Proyecto WebApi en C# de libreria digital
+
+## Ejecucion del docker:
+se debe ejecutar el siguiente comando en la ruta del proyecto para levantar el contenedor de SQL Server y la API:
+docker compose up -d --build
